@@ -89,3 +89,16 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_HAS_EDL_MODE := true
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
+
+#SHRP_Variables
+SHRP_PATH := device/zuk/z2_plus
+SHRP_MAINTAINER := NikhilGohil
+SHRP_DEVICE_CODE := z2_plus
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A-Only
+SHRP_EXPRESS := true
